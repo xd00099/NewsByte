@@ -44,12 +44,12 @@ export default function SignIn() {
     //   password: data.get('password'),
     // });
 
-    navigate('/articles');
+    navigate('/dashboard');
   };
 
   const handleSocialSignIn = (provider) => {
     // Implement social sign-in logic here
-    console.log(`Sign in with ${provider}`);
+    navigate('/dashboard');
   };
 
 
@@ -59,17 +59,17 @@ export default function SignIn() {
         <CssBaseline />
         <Box
           sx={{
-            marginTop: 8,
+            marginTop: 20,
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+          {/* <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
           </Avatar>
           <Typography component="h1" variant="h5">
             Sign in
-          </Typography>
+          </Typography> */}
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
               margin="normal"
@@ -96,7 +96,7 @@ export default function SignIn() {
               type="submit"
               fullWidth
               variant="contained"
-              style={{background: '#597393'}}
+              style={{background: '#6766CC'}}
               sx={{ mt: 3, mb: 2 }}
             >
               Sign In
@@ -141,7 +141,7 @@ export default function SignIn() {
               type="submit"
               fullWidth
               variant="contained"
-              style={{background: '#597393'}}
+              style={{background: '#6766CC'}}
               sx={{ mt: 3, mb: 2 }}
             >
               Continue as Guest

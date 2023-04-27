@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/articles.css';
 import Article from '../components/article.js';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import news from '../news/news.js'
 
 import { useNavigate } from 'react-router-dom';
-
 
 const Articles = () => {
   const navigate = useNavigate();
@@ -12,24 +12,34 @@ const Articles = () => {
     navigate(-1);
   };
 
-  const articles = [
-    {
-      image: 'https://example.com/article1.jpg',
-      title: 'Article Title 1',
-      summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-    },
-    {
-      image: 'https://example.com/article2.jpg',
-      title: 'Article Title 2',
-      summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-    },
-    {
-      image: 'https://example.com/article3.jpg',
-      title: 'Article Title 3',
-      summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-    },
-    // Add more articles as needed
-  ];
+  // useEffect(() => {
+  //   const fetchArticles = async () => {
+  //     const fetchedArticles = await fetchTopHeadlines();
+  //     setArticles(fetchedArticles);
+  //   };
+  //   fetchArticles();
+  // }, []);
+
+  // const articles = [
+  //   {
+  //     image: 'https://example.com/article1.jpg',
+  //     title: 'Article Title 1',
+  //     summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
+  //   },
+  //   {
+  //     image: 'https://example.com/article2.jpg',
+  //     title: 'Article Title 2',
+  //     summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
+  //   },
+  //   {
+  //     image: 'https://example.com/article3.jpg',
+  //     title: 'Article Title 3',
+  //     summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
+  //   },
+  // ];
+
+  const articles = news.articles;
+  
 
   return (
     <div>
@@ -44,9 +54,9 @@ const Articles = () => {
           <Article
             articleNumber={index}
             key={index}
-            image={article.image}
+            image={article.urlToImage}
             title={article.title}
-            summary={article.summary}
+            summary={article.description}
           />
         ))}
       </div>
