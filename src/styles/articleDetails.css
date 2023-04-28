@@ -1,21 +1,25 @@
 .article-details-header {
     display: flex;
     position: relative;
-    height: 15vh;
+    height: 25vh;
     padding: 20px;
     background-color: #DDEAF3;
     align-items: flex-start;
+    background-size: cover;
   }
   
-  .goBackButton {
+  .goBackButton-details {
     position: absolute;
+    color: #6766CC;
   }
   
   .article-details-title {
-    font-size: 18px;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-size: 24px;
     font-weight: bold;
-    padding-bottom: 10px;
-    color: #2E3B4C;
+    color: #6766CC;
+    margin-top: 0;
   }
   
   .article-details {
@@ -25,13 +29,9 @@
     flex-direction: column;
   }
   
-  .article-image {
-    width: 100%;
-    border-radius: 10px;
-  }
-  
   .article-content {
-    font-size: 13px;
+    font-family: 'Inter';
+    font-size: 15px;
     color: #2E3B4C;
     margin-top: 0;
   }

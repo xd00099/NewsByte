@@ -5,6 +5,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import news from '../news/news.js'
 
 import { useNavigate } from 'react-router-dom';
+import GenreNavbar from '../components/genreNavbar';
 
 const Articles = () => {
   const navigate = useNavigate();
@@ -59,6 +60,12 @@ const Articles = () => {
             summary={article.description}
           />
         ))}
+      </div>
+      
+      <div className='articles-navbar'>
+        <div className="articles-navbar-container">
+              <GenreNavbar title='Browse by'/>
+        </div>
       </div>
     </div>
   );

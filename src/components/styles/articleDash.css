@@ -1,0 +1,51 @@
+.title {
+    position: absolute;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-45%);
+    color: #6766CC;
+  }
+  
+  .articles {
+    padding: 15px;
+  }
+  
+  .articleDash {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .article-image-Dash {
+    width: 25vw;
+    height: 25vw;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .image-wrapper {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .dash-article-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #74C9AA;
+    margin: 0;
+  }
+  
+  .dash-article-summary {
+    font-size: 13px;
+    color: #2E3B4C;
+    margin: 0;
+  }
+  
