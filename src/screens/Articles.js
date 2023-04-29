@@ -10,34 +10,9 @@ import GenreNavbar from '../components/genreNavbar';
 const Articles = () => {
   const navigate = useNavigate();
   const goBack = () => {
-    navigate(-1);
+    navigate('/dashboard');
   };
 
-  // useEffect(() => {
-  //   const fetchArticles = async () => {
-  //     const fetchedArticles = await fetchTopHeadlines();
-  //     setArticles(fetchedArticles);
-  //   };
-  //   fetchArticles();
-  // }, []);
-
-  // const articles = [
-  //   {
-  //     image: 'https://example.com/article1.jpg',
-  //     title: 'Article Title 1',
-  //     summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-  //   },
-  //   {
-  //     image: 'https://example.com/article2.jpg',
-  //     title: 'Article Title 2',
-  //     summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-  //   },
-  //   {
-  //     image: 'https://example.com/article3.jpg',
-  //     title: 'Article Title 3',
-  //     summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-  //   },
-  // ];
 
   const articles = news.articles;
   
@@ -48,7 +23,7 @@ const Articles = () => {
         <button className="goBackButton" onClick={goBack}>
          <ArrowBackIcon/>
         </button>
-        <h1 className="title">Today's Discovery</h1>
+        <h1 className="title">Latest News</h1>
       </div>
       <div className="articles">
         {articles.map((article, index) => (
@@ -57,16 +32,17 @@ const Articles = () => {
             key={index}
             image={article.urlToImage}
             title={article.title}
-            summary={article.description}
+            description={article.description}
+            summary={article.summary}
           />
         ))}
       </div>
       
-      <div className='articles-navbar'>
+      {/* <div className='articles-navbar'>
         <div className="articles-navbar-container">
               <GenreNavbar title='Browse by'/>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

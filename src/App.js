@@ -6,6 +6,8 @@ import Dashboard from './screens/Dashboard';
 import ArticleDetails from './screens/ArticleDetails';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
+require('typeface-abril-fatface')
+require('typeface-inter')
 
 function App() {
   return (
