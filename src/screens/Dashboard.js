@@ -86,7 +86,7 @@ const Dashboard = () => {
 
         <MenuBar onClick={handleChangeCategory} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
         
-        <div style={{ overflow: 'hidden' }}>
+        <div style={{paddingBottom: '20px', overflow: 'hidden' }}>
         <Swiper
           style={{paddingTop: '10px'}}
           effect={"cards"}
@@ -115,7 +115,7 @@ const Dashboard = () => {
         </Swiper>
         </div>
 
-        <div className='show-more' style={{display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', paddingTop: '50px', paddingBottom: '20px'}}>
+        <div className='show-more' style={{display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', paddingTop: '30px', paddingBottom: '20px'}}>
           <h1 className="dashboard-subtitle">Latest News</h1>
           <Link href="/articles" style={{fontFamily: 'Abril Fatface', color: '#70758a', fontSize: '14px' ,textAlign: 'center'}} underline="none">
                 {'See All'}
