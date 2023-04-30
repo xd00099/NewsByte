@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/menubar.css';
 
 const MenuBar = ({ selectedItem, setSelectedItem }) => {
-    const menuItems = ["All", "Politics", "Sports", "Business", "Technology", "Economics"];
+    const menuItems = ["All", "Politics", "Sports", "Technology", "Economics", "Public", "Health"];
 
     return (
         <div className="menu-bar">

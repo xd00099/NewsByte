@@ -1,48 +1,27 @@
 import React, { useEffect, useState } from 'react';
-import TextField from '@mui/material/TextField';
 import news from '../news/news.js'
 import Link from '@mui/material/Link';
 import FeedIcon from '@mui/icons-material/Feed';
-import { useNavigate } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper";
+import AutorenewIcon from '@mui/icons-material/Autorenew';
 import MenuBar from '../components/menubar.js';
+import ArticleDash from '../components/articleDash.js';
+import { getTextToSpeech } from '../services/textToSpeech.js';
+import Article from '../components/article.js';
+import SliderAudio from '../components/sliderAudio.js';
+
 import "swiper/css";
 import "swiper/css/effect-cards";
-
 import '../styles/dashboard.css';
-import ArticleDash from '../components/articleDash.js';
-import GenreNavbar from '../components/genreNavbar.js';
 
 
 const Dashboard = () => {
-  const navigate = useNavigate();
+  const articles = news.articles;
   const [selectedItem, setSelectedItem] = useState("All");
-  // useEffect(() => {
-  //   const fetchArticles = async () => {
-  //     const fetchedArticles = await fetchTopHeadlines();
-  //     setArticles(fetchedArticles);
-  //   };
-  //   fetchArticles();
-  // }, []);
+  const [topArticles, setTopArticles] = useState(getFirstThree(articles,3));
+  const [cateArticles, setCateArticles] = useState(getCategoryArticles(articles, selectedItem, 3));
 
-//   const articles = [
-//     {
-//       image: 'https://example.com/article1.jpg',
-//       title: 'Article Title 1',
-//       summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-//     },
-//     {
-//       image: 'https://example.com/article2.jpg',
-//       title: 'Article Title 2',
-//       summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-//     },
-//     {
-//       image: 'https://example.com/article3.jpg',
-//       title: 'Article Title 3',
-//       summary: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.',
-//     },
-//   ];
   function truncateBegin(summary, wordCount) {
     let add = "";
     if (summary.length > wordCount) add = "...";
@@ -62,19 +41,35 @@ const Dashboard = () => {
   }
 
   const handleShuffleClick = () => {
-    setTopArticles(getRandomElements(articles, 3));
+    let categoryArticles = articles
+    if (selectedItem != 'All')
+      categoryArticles = articles.filter((a) => a.category == selectedItem)
+    setCateArticles(getRandomElements(categoryArticles, 3));
   };
   
+  function getCategoryArticles(arr, category, count) {
+    if (category != 'All')
+      arr = arr.filter((a) => a.category == category)
+    return arr
+      .sort()
+      .slice(0, count);
+  }
 
-  const articles = news.articles;
+  const handleChangeCategory = (category) => {
+    setSelectedItem(category);
+    setCateArticles(getCategoryArticles(articles, selectedItem, 3));
+  }
 
-  const [topArticles, setTopArticles] = useState(getFirstThree(articles,3));
+  useEffect(() => {
+    setCateArticles(getCategoryArticles(articles, selectedItem, 3));
+  }, [selectedItem]);
 
   return (
     <div className='dashboard-container'>
       <div className="dashboard-header">
         <FeedIcon style={{color: '#eceff3'}}/>
         <h1 className="dashboard-title">NewsByte</h1>
+        <AutorenewIcon onClick={handleShuffleClick} style={{color: '#eceff3'}} />
       </div>
       
       <div className="dashboard-content">
@@ -85,19 +80,26 @@ const Dashboard = () => {
             </div>
         </div> */}
 
-        <MenuBar selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+        <MenuBar onClick={handleChangeCategory} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
 
         <Swiper
           style={{paddingTop: '10px'}}
           effect={"cards"}
           grabCursor={true}
           modules={[EffectCards]}
-          className="mySwiper">
+          className="mySwiper"
+          >
 
-          {topArticles.map((article, index) => (
+          {cateArticles.map((article, index) => (
             <div className='swipecard'>
               <SwiperSlide key={index} style={{backgroundImage: `url(${article.urlToImage})`, boxShadow: '5px 5px 8px #00000087'}}>
-                <div className="overlay"></div>
+                <div className="overlay">
+                  <SliderAudio summary={article.summary}></SliderAudio>
+                  <div className='swipecard-text'>
+                  <p style={{color: '#9c2661', fontFamily: 'Sans-serif', textTransform: 'uppercase', fontSize: '12px', margin: '0'}}>{article.category}</p>
+                  <h2 style={{color: '#eceff3', fontFamily: 'Abril Fatface', fontSize: '18px'}}>{article.title}</h2>
+                  </div>
+                </div>
               </SwiperSlide>
             </div>
           ))}
@@ -106,7 +108,7 @@ const Dashboard = () => {
         <div className='show-more' style={{display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', paddingTop: '60px', paddingBottom: '20px'}}>
           <h1 className="dashboard-subtitle">Latest News</h1>
           <Link href="/articles" style={{color: '#eceff3', fontFamily: 'Abril Fatface', color: '#70758a', fontSize: '14px' ,textAlign: 'center'}} underline="none">
-                {'See More'}
+                {'See All'}
             </Link>
         </div>
 

@@ -12,8 +12,6 @@ const Articles = () => {
   const goBack = () => {
     navigate('/dashboard');
   };
-
-
   const articles = news.articles;
   
 
