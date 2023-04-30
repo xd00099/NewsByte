@@ -3,24 +3,24 @@ import news from '../news/news.js'
 import Link from '@mui/material/Link';
 import FeedIcon from '@mui/icons-material/Feed';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCards } from "swiper";
+import { EffectCards, Autoplay, Navigation } from 'swiper';
 import AutorenewIcon from '@mui/icons-material/Autorenew';
 import MenuBar from '../components/menubar.js';
 import ArticleDash from '../components/articleDash.js';
-import { getTextToSpeech } from '../services/textToSpeech.js';
-import Article from '../components/article.js';
 import SliderAudio from '../components/sliderAudio.js';
 
 import "swiper/css";
 import "swiper/css/effect-cards";
+import "swiper/css/autoplay";
+import 'swiper/css/navigation';
 import '../styles/dashboard.css';
 
 
 const Dashboard = () => {
   const articles = news.articles;
   const [selectedItem, setSelectedItem] = useState("All");
-  const [topArticles, setTopArticles] = useState(getFirstThree(articles,3));
-  const [cateArticles, setCateArticles] = useState(getCategoryArticles(articles, selectedItem, 3));
+  const [topArticles, setTopArticles] = useState(getRandomElements(articles,3));
+  const [cateArticles, setCateArticles] = useState(getCategoryArticles(articles, selectedItem, 5));
 
   function truncateBegin(summary, wordCount) {
     let add = "";
@@ -29,7 +29,8 @@ const Dashboard = () => {
   }
   
   function getRandomElements(arr, count) {
-    return arr
+    let randArticels = [...arr];
+    return randArticels
       .sort(() => Math.random() - 0.5)
       .slice(0, count);
   }
@@ -57,11 +58,11 @@ const Dashboard = () => {
 
   const handleChangeCategory = (category) => {
     setSelectedItem(category);
-    setCateArticles(getCategoryArticles(articles, selectedItem, 3));
+    setCateArticles(getCategoryArticles(articles, selectedItem, 5));
   }
 
   useEffect(() => {
-    setCateArticles(getCategoryArticles(articles, selectedItem, 3));
+    setCateArticles(getCategoryArticles(articles, selectedItem, 5));
   }, [selectedItem]);
 
   return (
@@ -81,12 +82,17 @@ const Dashboard = () => {
         </div> */}
 
         <MenuBar onClick={handleChangeCategory} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
-
+        
+        <div style={{ overflow: 'hidden' }}>
         <Swiper
           style={{paddingTop: '10px'}}
           effect={"cards"}
+          autoplay={{
+          delay: 2500,
+          disableOnInteraction: true,
+          }}
           grabCursor={true}
-          modules={[EffectCards]}
+          modules={[EffectCards, Autoplay]}
           className="mySwiper"
           >
 
@@ -97,15 +103,16 @@ const Dashboard = () => {
                   <SliderAudio summary={article.summary}></SliderAudio>
                   <div className='swipecard-text'>
                   <p style={{color: '#9c2661', fontFamily: 'Sans-serif', textTransform: 'uppercase', fontSize: '12px', margin: '0'}}>{article.category}</p>
-                  <h2 style={{color: '#eceff3', fontFamily: 'Abril Fatface', fontSize: '18px'}}>{article.title}</h2>
+                  <h2 style={{color: '#eceff3', fontFamily: 'Abril Fatface', fontSize: '16px'}}>{article.title}</h2>
                   </div>
                 </div>
               </SwiperSlide>
             </div>
           ))}
         </Swiper>
+        </div>
 
-        <div className='show-more' style={{display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', paddingTop: '60px', paddingBottom: '20px'}}>
+        <div className='show-more' style={{display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', paddingTop: '50px', paddingBottom: '20px'}}>
           <h1 className="dashboard-subtitle">Latest News</h1>
           <Link href="/articles" style={{color: '#eceff3', fontFamily: 'Abril Fatface', color: '#70758a', fontSize: '14px' ,textAlign: 'center'}} underline="none">
                 {'See All'}

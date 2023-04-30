@@ -5,7 +5,6 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import news from '../news/news.js'
 
 import { useNavigate } from 'react-router-dom';
-import GenreNavbar from '../components/genreNavbar';
 
 const Articles = () => {
   const navigate = useNavigate();

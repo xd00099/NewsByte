@@ -1,25 +1,29 @@
+.articleDetails-page {
+  background-color: #eceff3;
+  min-height: 100vh;
+}
+
 .article-details-header {
     display: flex;
     position: relative;
     height: 25vh;
     padding: 20px;
-    background-color: #DDEAF3;
     align-items: flex-start;
     background-size: cover;
   }
   
   .goBackButton-details {
     position: absolute;
-    color: #6766CC;
+    color: #141e49;
   }
   
   .article-details-title {
     font-family: 'Abril Fatface';
     font-style: normal;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
-    color: #eceff3;
-    margin-top: 0;
+    color: #141e49;
+    margin: 0;
   }
   
   .article-details {
@@ -31,8 +35,56 @@
   
   .article-content {
     font-family: 'Inter';
-    font-size: 15px;
+    font-size: 14px;
     color: #70758a;
     margin-top: 0;
+  }
+
+  .circle-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 3px rgb(101, 101, 101);
+    bottom: -25px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;  /* makes the button circular */
+    border: none;
+    color: #363636;
+    background-color: #eceff3;  /* change to desired color */
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .profile-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .time-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0 15px 0
+  }
+
+  .time-profile h3 {
+    margin: 0;
+    color: '#70758a';
+    font-family: 'Inter'; 
+    text-transform: uppercase; 
+    font-size: 10px; 
+    color: #70758a;
+  }
+
+  .time-profile p {
+    margin: 0 5px 0 5px;
+    color: '#70758a';
+    font-family: 'Sans-serif'; 
+    font-size: 10px; 
+    color: #70758a;
   }
   

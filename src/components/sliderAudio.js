@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import './styles/article.css';
 import { getTextToSpeech } from '../services/textToSpeech.js';
 import ClipLoader from "react-spinners/ClipLoader";
 import DownloadIcon from '@mui/icons-material/Download';
@@ -54,7 +53,7 @@ const SliderAudio = ({ summary }) => {
   };
 
   return (
-    <div className="article">
+    <div>
         <div className="play-button" onClick={(e) => handlePlayButtonClick(e)}>
         {isLoading ? (
             <ClipLoader type="ThreeDots" color="#fff" height={15} width={15} />

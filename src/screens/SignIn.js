@@ -8,6 +8,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Divider from '@mui/material/Divider';
+import FeedIcon from '@mui/icons-material/Feed';
 
 import GoogleIcon from '@mui/icons-material/Google';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -23,8 +24,8 @@ function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" >
+        NewsByte
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -59,6 +60,15 @@ export default function SignIn() {
             alignItems: 'center',
           }}
         >
+
+          <div className="dashboard-header">
+            <FeedIcon style={{color: '#141e49'}}/>
+            <h1 className="dashboard-title" style={{color: '#141e49'}}>NewsByte</h1>
+          </div>
+          {/* <div className="dashboard-header">
+            <FeedIcon style={{color: '#0D1B4A'}}/>
+            <h1 className="dashboard-title" style={{color: '#0D1B4A'}}>NewsByte</h1>
+          </div> */}
           {/* <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
           </Avatar>
           <Typography component="h1" variant="h5">
@@ -90,7 +100,7 @@ export default function SignIn() {
               type="submit"
               fullWidth
               variant="contained"
-              style={{background: '#6766CC'}}
+              style={{background: '#141e49'}}
               sx={{ mt: 3, mb: 2 }}
             >
               Sign In
@@ -135,7 +145,7 @@ export default function SignIn() {
               type="submit"
               fullWidth
               variant="contained"
-              style={{background: '#6766CC'}}
+              style={{background: '#141e49'}}
               sx={{ mt: 3, mb: 2 }}
             >
               Continue as Guest
