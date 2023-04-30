@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import '../styles/articles.css';
 import Article from '../components/article.js';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -25,7 +25,7 @@ const Articles = () => {
       <div className="articles">
         {articles.map((article, index) => (
           <Article
-            articleNumber={index}
+            articleNumber={article.id}
             key={index}
             image={article.urlToImage}
             title={article.title}

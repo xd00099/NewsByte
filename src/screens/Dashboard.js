@@ -3,7 +3,7 @@ import news from '../news/news.js'
 import Link from '@mui/material/Link';
 import FeedIcon from '@mui/icons-material/Feed';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCards, Autoplay, Navigation } from 'swiper';
+import { EffectCards, Autoplay } from 'swiper';
 import AutorenewIcon from '@mui/icons-material/Autorenew';
 import MenuBar from '../components/menubar.js';
 import ArticleDash from '../components/articleDash.js';
@@ -19,8 +19,8 @@ import '../styles/dashboard.css';
 const Dashboard = () => {
   const articles = news.articles;
   const [selectedItem, setSelectedItem] = useState("All");
-  const [topArticles, setTopArticles] = useState(getRandomElements(articles,3));
   const [cateArticles, setCateArticles] = useState(getCategoryArticles(articles, selectedItem, 5));
+  const [topArticles, setTopArticles] = useState(getCategoryArticles(articles, selectedItem, 3));
 
   function truncateBegin(summary, wordCount) {
     let add = "";
@@ -35,25 +35,24 @@ const Dashboard = () => {
       .slice(0, count);
   }
 
-  function getFirstThree(arr, count) {
-    return arr
-      .sort()
-      .slice(0, count);
-  }
+  // function getFirstThree(arr, count) {
+  //   return arr
+  //     .sort()
+  //     .slice(0, count);
+  // }
 
   const handleShuffleClick = () => {
     let categoryArticles = articles
-    if (selectedItem != 'All')
-      categoryArticles = articles.filter((a) => a.category == selectedItem)
-    setCateArticles(getRandomElements(categoryArticles, 3));
+    if (selectedItem !== 'All')
+      categoryArticles = articles.filter((a) => a.category === selectedItem)
+    setCateArticles(getRandomElements(categoryArticles, 5));
+    setTopArticles(getRandomElements(cateArticles, 3));
   };
   
   function getCategoryArticles(arr, category, count) {
-    if (category != 'All')
-      arr = arr.filter((a) => a.category == category)
-    return arr
-      .sort()
-      .slice(0, count);
+    if (category !== 'All')
+      arr = arr.filter((a) => a.category === category)
+    return getRandomElements(arr, count);
   }
 
   const handleChangeCategory = (category) => {
@@ -63,6 +62,10 @@ const Dashboard = () => {
 
   useEffect(() => {
     setCateArticles(getCategoryArticles(articles, selectedItem, 5));
+  }, [selectedItem]);
+
+  useEffect(() => {
+    setTopArticles(getCategoryArticles(articles, selectedItem, 3));
   }, [selectedItem]);
 
   return (
@@ -114,7 +117,7 @@ const Dashboard = () => {
 
         <div className='show-more' style={{display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', paddingTop: '50px', paddingBottom: '20px'}}>
           <h1 className="dashboard-subtitle">Latest News</h1>
-          <Link href="/articles" style={{color: '#eceff3', fontFamily: 'Abril Fatface', color: '#70758a', fontSize: '14px' ,textAlign: 'center'}} underline="none">
+          <Link href="/articles" style={{fontFamily: 'Abril Fatface', color: '#70758a', fontSize: '14px' ,textAlign: 'center'}} underline="none">
                 {'See All'}
             </Link>
         </div>

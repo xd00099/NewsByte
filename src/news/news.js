@@ -690,6 +690,390 @@ const news = {'status': 'ok',
   "summary": "Jerry Springer, talk show host and self-proclaimed ringmaster of his TV circus has died at the age of 79. His show featured guests that revealed cheating spouses, badasses, brawlers, and racists. With over 27 years on air, his show pioneered the use of rabble and mild violence in daytime TV. Springer's network relied on his show's entertainment value rather than shedding light on the human condition, with Springer cynically exploiting his guests for ratings. His gesture of sighing and lowering his head during brawls displayed his insincerity to the audience. Springer's legacy lived on, paving the way for shows that exploit TV viewers into video mayhem. ",
   "category": "Entertainment",
   "id": 48
+},
+{
+   "source": {
+      "id": null,
+      "name": "MarketWatch"
+   },
+   "author": "Quentin Fottrell",
+   "title": "I bond rates just dropped. Where's the best place to put your cash now? - MarketWatch",
+   "description": "\u2018The economy is still moving along, trying to find its new normal,\u2019 one commentator says",
+   "url": "https://www.marketwatch.com/story/americans-personal-savings-just-hit-1-trillion-whats-the-best-place-to-store-your-cash-i-bonds-cds-or-online-savings-accounts-65fa0d1a",
+   "urlToImage": "https://images.mktw.net/im-564470/social",
+   "publishedAt": "2023-04-28T16:28:00Z",
+   "content": "People are cutting back on their spending and putting money aside for a rainy day.\r\nThats according to data from the U.S. Department of Commerce released Friday. The personal savings rate personal sa\u2026 [+140 chars]",
+   "summary": "Personal savings rate in the US has increased to 5.1% in March from 4.8% in February, with people cutting back on spending and stashing more money for contingencies, says the US Department of Commerce. ",
+   "category": "Economics",
+   "id": 49
+},
+{
+   "source": {
+      "id": "engadget",
+      "name": "Engadget"
+   },
+   "author": "https://www.engadget.com/about/editors/billy-steele",
+   "title": "Sony WH-CH720N review: Budget-friendly headphones with premium sound - Engadget",
+   "description": "Sony has been king of the headphone heap for a while with its 1000X line, but the company is staking its claim on the mid-range too..",
+   "url": "https://www.engadget.com/sony-wh-ch720n-review-160032871.html",
+   "urlToImage": "https://s.yimg.com/uu/api/res/1.2/AHh8q61oPEcCmjdggX39xg--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-04/1ee40cc2-e55b-11ed-b1fe-635016562860.cf.jpg",
+   "publishedAt": "2023-04-28T16:00:47Z",
+   "content": "Sony has a great track record when it comes to budget headphones. The companys WH-CH710N\r\n were excellent, but overpriced initially. Sony made them an incredible value at $150 after it cut the price \u2026 [+7816 chars]",
+   "summary": "Sony has released a new model of budget headphones, the WH-CH720N, which has the same V1 chip as the company\u2019s flagship model, but is cheaper at $130. Although made primarily from plastic, the WH-CH720N is lightweight and comfortable to wear for long periods. The suite of features inside the Sony Headphones app includes Adaptive Sound Control, allowing automatic adjustments based on location or activity, an EQ slider for manual adjustments, and a Safe Listening feature to help preserve hearing. The ANC function is not as strong as the previous model, but the sound quality is good with a natural transparency mode. ",
+   "category": "Technology",
+   "id": 50
+},
+{
+   "source": {
+      "id": "fox-news",
+      "name": "Fox News"
+   },
+   "author": "Thomas Catenacci",
+   "title": "New York moves to become first state banning natural gas hookups - Fox News",
+   "description": "New York Gov. Kathy Hochul announced Thursday that her state would move to ban natural gas hookups in new buildings as soon as 2025, the first such statewide action nationwide.",
+   "url": "https://www.foxnews.com/politics/new-york-moves-become-first-state-banning-natural-gas-hookups",
+   "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/02/GettyImages-1247212836.jpg",
+   "publishedAt": "2023-04-28T15:53:00Z",
+   "content": "New York state leaders led by Democratic Gov. Kathy Hochul reached an agreement late Thursday on the state's 2024 budget which includes a future ban on natural gas hookups in new building constructio\u2026 [+4264 chars]",
+   "summary": "New York has reached an agreement on the state budget which includes a plan to ban natural gas hookups in all new buildings from 2025 onwards. Under the new budget, natural gas hookups will be banned in small buildings beginning in 2025 and in large buildings beginning in 2028. Supporters of the plan argue that building all-electric will reduce childhood asthma and emissions as well as save New Yorkers money on energy bills, while critics argue that such a ban on natural gas hookups could be detrimental to the state's electric grid. ",
+   "category": "Public",
+   "id": 51
+},
+{
+   "source": {
+      "id": null,
+      "name": "GMA"
+   },
+   "author": "Haley Yamada",
+   "title": "New report says worst heart-healthy diets include keto, Paleo diets - GMA",
+   "description": "",
+   "url": "https://www.goodmorningamerica.com/wellness/story/new-report-reveals-popular-diets-rank-lower-heart-98923803",
+   "urlToImage": "https://s.abcnews.com/images/GMA/keto1-abc-ml-230428_1682688979501_hpMain_16x9_608.jpg",
+   "publishedAt": "2023-04-28T14:53:34Z",
+   "content": "The American Heart Association released a report Thursday that ranked the top 10 diets according to their guidelines for heart-healthy eating. Researchers found that some of the most popular diets li\u2026 [+2655 chars]",
+   "summary": "The American Heart Association released a report ranking diets based on heart-healthy eating habits. Researchers found that low carbohydrate and high-fat diets like keto and Paleo scored lower on the scale. The DASH diet, Mediterranean diet, pescatarian diet and vegetarian diet ranked higher for their emphasis on seafood, lean proteins, fiber, fruits, and vegetables. Feller advises that people don't need to cut out carbohydrates and fats, but rather find a suitable pattern of eating that works for them, incorporating mono and polyunsaturated fatty acids. ",
+   "category": "Health",
+   "id": 53
+},
+{
+   "source": {
+      "id": null,
+      "name": "Yahoo Entertainment"
+   },
+   "author": "Ethan Alter",
+   "title": "Why 'Peter Pan & Wendy' director David Lowery wants to make movies that scare your children - Yahoo Entertainment",
+   "description": "After growing up on movies like \"Time Bandits,\" Lowery says that he wants to make family films that \"scare kids just enough.\"",
+   "url": "https://www.yahoo.com/entertainment/peter-pan-and-wendy-disney-david-lowery-jude-law-captain-hook-142929580.html",
+   "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Bv2rAixr9g4TrOaQUfzM2A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/os/creatr-uploaded-images/2023-04/7da3b050-e2de-11ed-8ffd-c8d418861229",
+   "publishedAt": "2023-04-28T14:29:29Z",
+   "content": "Jude Law as Captain Hook in Peter Pan &amp; Wendy. (Photo: Courtesy Everett Collection)\r\nMemo to internet trolls complaining that the version of Neverland seen in Peter Pan &amp; Wendy features Lost \u2026 [+5069 chars]",
+   "summary": "David Lowery, the director of Disney's live-action adaptation of Peter Pan & Wendy, defends his decision to cast Yara Shahidi as Disney's first Black Tinkerbell in the film. Lowery also stands by having Lost Girls as well as Lost Boys in Neverland. Lowery hopes to create a balance of both darkness and light in his version of the classic story. The film is streaming on Disney+. ",
+   "category": "Entertainment",
+   "id": 54
+},
+{
+   "source": {
+      "id": null,
+      "name": "The Athletic"
+   },
+   "author": "Sam Amick",
+   "title": "Amick: Giannis\u2019 answer about failure, NBA\u2019s Ringz culture shows power of reporter-player relationships - The Athletic",
+   "description": "Giannis' response reminded us why the fans should always want objective sports reporters, the human kind, to be part of the process.",
+   "url": "https://theathletic.com/4460837/2023/04/28/giannis-failure-speech-interview/",
+   "urlToImage": "https://cdn.theathletic.com/app/uploads/2023/04/28074612/230428-Giannis-scaled-e1682682466104.jpg",
+   "publishedAt": "2023-04-28T14:09:34Z",
+   "content": "Some time ago, an NBA executive who didnt like a story I had written about his team decided to fire off a text message sharing his discontent.\r\nMy only hope is you had ChatGPT regurgitate some of thi\u2026 [+9703 chars]",
+   "summary": "NBA star Giannis Antetokounmpo's emotional two-minute response to a reporter's question after a recent game reminds us of the importance of objective, human sports reporters. While some may view the rise of artificial intelligence (AI) as superseding the need for human reporters, Giannis' revealing comments and the context provided by writers like Eric Nehm show the value of the human perspective. Winning in the NBA is difficult, and Giannis' insights provide a glimpse into the challenges faced by players who pour their time, energy, and passion into their craft.  ",
+   "category": "Sports",
+   "id": 56
+},
+{
+   "source": {
+      "id": null,
+      "name": "Democracy Now!"
+   },
+   "author": "Democracy Now!",
+   "title": "\u201cProvocative & Dangerous\u201d: Biden to Send Nuclear-Armed Subs to South Korea as Activists Demand Peace - Democracy Now!",
+   "description": "On Wednesday, President Joe Biden pledged to deploy nuclear-armed submarines to South Korea for the first time in 40 years. Alongside South Korea\u2019s President Yoon Suk-yeol, Biden also pledged to involve officials from Seoul in nuclear planning operations targ\u2026",
+   "url": "https://www.democracynow.org/2023/4/28/us_south_korea_nuclear_submarines",
+   "urlToImage": "https://www.democracynow.org/images/story/72/67172/full_hd/SEG4-Biden-Nuke-Sub-Split.jpg",
+   "publishedAt": "2023-04-28T12:00:00Z",
+   "content": "AMYGOODMAN: This is Democracy Now!, democracynow.org, The War and Peace Report. I\u2019m Amy Goodman, as we end today\u2019s show looking at the crisis on the Korean Peninsula. On Thursday, South Korean Presid\u2026 [+7313 chars]",
+   "summary": "President Joe Biden pledged to deploy nuclear-armed submarines to South Korea for the first time in 40 years during his meeting with the South Korean President Yoon Suk-yeol. Biden also promised to involve officials from Seoul in nuclear planning operations targeting North Korea, which resulted in renewed tensions on the Korean Peninsula. Christine Ahn, founder and executive director of Women Cross DMZ, a global movement of women mobilizing to end the Korean War, says that the militarization of the peninsula is not the answer and that it is time to negotiate a peace agreement. Ahn also highlighted the danger of sending nuclear submarines to South Korea, as it is the first time in 40 years that nuclear-armed vessels will be on or around the Korean Peninsula. ",
+   "category": "Politics",
+   "id": 58
+},
+{
+   "source": {
+      "id": null,
+      "name": "CBS Sports"
+   },
+   "author": "",
+   "title": "2023 NFL Draft grades, tracker: Analysis and projections for all third-round picks, NFL Draft order - CBS Sports",
+   "description": "Chris Trapasso grades the second day of the 2023 NFL Draft",
+   "url": "https://www.cbssports.com/nfl/draft/news/2023-nfl-draft-day-2-grades-tracker-analysis-and-projections-for-all-third-round-picks-nfl-draft-order/",
+   "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/04/20/3297dcbc-b992-474b-9077-ec5e45221f43/thumbnail/1200x675/7ff817cb8f5e7688f630bf4592dab0be/hendon-hooker-1-1400-us.jpg",
+   "publishedAt": "2023-04-29T02:08:00Z",
+   "content": "Day 2 of the 2023 NFL Draft always brings surprises. You can follow along below throughout the day Friday as I grade all the Round 3 picks as well as the other four rounds below. Be sure to refresh t\u2026 [+8936 chars]",
+   "summary": "TL;DR: The article features grades for all Round 3 picks in the 2023 NFL Draft, as well as some analysis on each player. There were some surprises in the draft, with some picks being graded higher or lower than expected. ",
+   "category": "Sports",
+   "id": 59
+},
+{
+   "source": {
+      "id": "reuters",
+      "name": "Reuters"
+   },
+   "author": null,
+   "title": "US confiscates Iran oil cargo on tanker amid Tehran tensions - Reuters",
+   "description": "The U.S. confiscated Iranian oil on a tanker at sea in recent days in a sanctions enforcement operation, three sources said, and days later Iran seized another oil-laden tanker in retaliation, according to a maritime security firm.",
+   "url": "https://www.reuters.com/world/middle-east/us-confiscates-iran-oil-cargo-tanker-amid-tehran-tensions-sources-2023-04-28/",
+   "urlToImage": "https://www.arabnews.jp/en/wp-content/uploads/sites/2/2022/05/3251536-1377261739.jpg",
+   "publishedAt": "2023-04-29T00:57:00Z",
+   "content": "WASHINGTON, April 28 (Reuters) - The U.S. confiscated Iranian oil on a tanker at sea in recent days in a sanctions enforcement operation, three sources said, and days later Iran seized another oil-la\u2026 [+2945 chars]",
+   "summary": "The US seized Iranian oil on a tanker at sea in a sanctions enforcement operation and Iran retaliated by seizing another oil-laden tanker, according to sources. The cargo seizure is the latest escalation between the two nations after years of sanctions pressure by the US over Iran\u2019s nuclear programme. Iran has previously responded tit-for-tat following seizures of Iranian oil cargo. The US Navy said Iran seized a Marshall Islands-flagged tanker in the Gulf of Oman on Thursday. ",
+   "category": "Politics",
+   "id": 60
+},
+{
+   "source": {
+      "id": "cnn",
+      "name": "CNN"
+   },
+   "author": "Michael Callahan,Mary Kay Mallonee",
+   "title": "US Army orders aviation safety stand down following deadly helicopter crashes - CNN",
+   "description": "The chief of staff of the US Army has grounded all Army aviators not involved in critical missions following two recent helicopter crashes that left 12 soldiers dead.",
+   "url": "https://www.cnn.com/2023/04/28/politics/army-aviation-safety-stand-down/index.html",
+   "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230428195032-us-army-ah-64d-apache-longbow-helicopters-file.jpg?c=16x9&q=w_800,c_fill",
+   "publishedAt": "2023-04-29T00:47:00Z",
+   "content": "The chief of staff of the US Army has grounded all Army aviators not involved in critical missions following two recent helicopter crashes that left 12 soldiers dead.\r\nThe order from Army Chief of St\u2026 [+1982 chars]",
+   "summary": "Following two recent helicopter crashes that killed 12 soldiers, the US Army Chief of Staff, James McConville, has grounded all Army aviators not involved in critical missions until they complete the required training. The order comes after a mid-air collision of two helicopters recently killed three soldiers in Fort Wainwright, Alaska, and weeks after nine soldiers died when two helicopters crashed during a nighttime training mission near Fort Campbell, Kentucky. The incidents are under investigation, says the Army, but there is currently no indication of any pattern between the two. ",
+   "category": "Politics",
+   "id": 61
+},
+{
+   "source": {
+      "id": null,
+      "name": "New York Post"
+   },
+   "author": "Fox News",
+   "title": "Texas man accused of leaving date, killing parking lot scammer, then returning to restaurant for dinner - New York Post ",
+   "description": "Erick Aguirre, 29, who learned he had been scammed out of $40 by a fake parking attendant left his date inside a Houston restaurant, retrieved a gun from his car and allegedly fatally shot the man.",
+   "url": "https://nypost.com/2023/04/28/texas-man-accused-of-leaving-date-killing-parking-lot-scammer-then-returning-to-restaurant/",
+   "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/04/newspress-collage-26815139-1682727680560.jpg?quality=75&strip=all&1682713382&w=1024",
+   "publishedAt": "2023-04-29T00:29:00Z",
+   "content": "A\u00a0Texas man\u00a0who learned he had been scammed out of $40 by a fake parking attendant left his date inside a Houston restaurant, retrieved a gun from his car and allegedly fatally shot the man before re\u2026 [+3037 chars]",
+   "summary": "Houston police have arrested a man for allegedly killing a fake parking attendant who swindled him out of $40. According to reports, Erick Aguirre was with a woman when the parking attendant took $40 for their cars to park. Aguirre then shot the attendant dead, before allegedly returning to his date in a nearby restaurant. He told her he had only scared the man, and the two went to another restaurant. Aguirre is out on probation for aggravated assault and has been charged with murder.\u00a0",
+   "category": "Public",
+   "id": 62
+},
+{
+   "source": {
+      "id": "cbs-news",
+      "name": "CBS News"
+   },
+   "author": "Charlie D'Agata, Erin Lyall",
+   "title": "Russia hits Ukraine with deadly missile salvo, killing 23 - CBS News",
+   "description": "Kyiv was among the cities targeted for the first time in weeks, but the deadliest Russian strike was on an apartment building in Uman, far from the front lines.",
+   "url": "https://www.cbsnews.com/news/russia-ukraine-war-missile-strike-uman-kyiv-deaths/",
+   "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2023/04/28/515eafc3-ae85-47cd-8de9-00157808659e/thumbnail/1200x630/1ec36cb6e59c99b53f9d19a2b7614bbf/ukraine-uman-strike-1485983352.jpg",
+   "publishedAt": "2023-04-29T00:06:00Z",
+   "content": "Nikopol, Ukraine \u2014\u00a0Russia fired a barrage of more than 20 cruise missiles and two explosive drones at Ukraine early Friday, killing 23 people, The Associated Press said citing Ukrainian officials. Th\u2026 [+2584 chars]",
+   "summary": "Russia launched a deadly barrage of over 20 cruise missiles and two explosive drones at Ukraine, killing at least 23 people and causing destruction in several towns and cities. The deadliest strike was a pair of missiles that hit an apartment building in the central city of Uman, killing 17 people including two children and a toddler. This attack was the first time the capital, Kyiv, came under attack in two months. The UN human rights mission in Ukraine stated that each civilian victim constitutes a potential war crime. ",
+   "category": "Politics",
+   "id": 63
+},
+{
+   "source": {
+      "id": "reuters",
+      "name": "Reuters"
+   },
+   "author": null,
+   "title": "DeSantis' tough words may come back to haunt him in Disney lawsuit, experts say - Reuters",
+   "description": "Now that the year-long war of words between Florida Governor Ron DeSantis and the Walt Disney Co <a href=\"https://www.reuters.com/companies/DIS.N\" target=\"_blank\">(DIS.N)</a> has landed in the courts, the Republican leader might find his verbal barbs directed\u2026",
+   "url": "https://www.reuters.com/legal/desantis-tough-words-may-come-back-haunt-him-disney-lawsuit-experts-2023-04-28/",
+   "urlToImage": "https://saltwire.imgix.net/2023/4/28/desantis-tough-words-may-come-back-to-haunt-him-in-disney-la_kDBBhef.jpg?cs=srgb&fit=crop&h=568&w=847&dpr=1&auto=compress%2Cenhance%2Cformat",
+   "publishedAt": "2023-04-28T23:07:00Z",
+   "content": "WILMINGTON, Delaware, April 28 (Reuters) - Now that the year-long war of words between Florida Governor Ron DeSantis and the Walt Disney Co (DIS.N) has landed in the courts, the Republican leader mig\u2026 [+4854 chars]",
+   "summary": "Disney has filed a lawsuit against Florida Governor Ron DeSantis in a bid to prevent the state from ending the entertainment giant's virtual autonomy in central Florida where it has its theme parks. The legal action comes a year after Disney criticised a Florida law banning classroom discussion of sexuality and gender identity with younger children, prompting the Republican leader to attack the firm as being \"woke\". Experts suggested that if Disney can show that the state\u2019s changes to Disney's development district were done as retaliation, the company has a strong case. ",
+   "category": "Economics",
+   "id": 64
+},
+{
+   "source": {
+      "id": "financial-times",
+      "name": "Financial Times"
+   },
+   "author": "Brooke Masters, Mark Vandevelde, Stephen Gandel, Colby Smith",
+   "title": "Federal Reserve review pins blame for SVB failure on Donald Trump-era rule changes - Financial Times",
+   "description": "US central bank says its own supervisors were too slow to correct blunders by Silicon Valley Bank\u2019s management",
+   "url": "https://www.ft.com/content/cd7d2d8b-32b9-4f89-8bd0-b23efeb33be2",
+   "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F70775cf6-6c4b-401b-be20-0ce8fb68a6f1.jpg?source=next-opengraph&fit=scale-down&width=900",
+   "publishedAt": "2023-04-28T22:30:51Z",
+   "content": "Silicon Valley Banks failure last month stemmed from weakened regulations during the Trump administration and mis-steps by internal supervisors who were too slow to correct management blunders, the U\u2026 [+6248 chars]",
+   "summary": "Financial Times is offering new customers a free trial of its Standard and Premium digital packages. During the trial, customers can access global news, expert opinion, and in-depth reporting. Premium Digital also includes access to Lex, a premier business column, and 15 curated newsletters. Customers not cancelling the trial will be enrolled in the premium digital monthly subscription plan, costing $69 per month. Changes can be made at any time online, with cost savings and annual payments options available. ",
+   "category": "Economics",
+   "id": 65
+},
+{
+   "source": {
+      "id": "reuters",
+      "name": "Reuters"
+   },
+   "author": null,
+   "title": "FDIC prepares to place First Republic under receivership - Reuters",
+   "description": "The U.S. Federal Deposit Insurance Corporation (FDIC) is preparing to place First Republic Bank <a href=\"https://www.reuters.com/companies/FRC.N\" target=\"_blank\">(FRC.N)</a> under receivership imminently, a person familiar with the matter said on Friday, send\u2026",
+   "url": "https://www.reuters.com/business/finance/first-republic-shares-gain-hopes-rescue-deal-2023-04-28/",
+   "urlToImage": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/ZIOCACHXANOYJMCKTRHASQSYKU.jpg",
+   "publishedAt": "2023-04-28T22:25:00Z",
+   "content": "April 28 (Reuters) - The U.S. Federal Deposit Insurance Corporation (FDIC) is preparing to place First Republic Bank (FRC.N) under receivership imminently, a person familiar with the matter said on F\u2026 [+2983 chars]",
+   "summary": "First Republic Bank is reportedly set to be placed under receivership by the U.S. Federal Deposit Insurance Corporation (FDIC) imminently, according to an anonymous source. This comes after U.S. officials coordinated efforts to rescue the troubled regional lender through the private sector, but without success. The FDIC has asked banks including JPMorgan Chase & Co and PNC Financial Services Group to submit final bids by Sunday. Shares in the bank fell nearly 50% in extended trading. If the San Francisco-based lender falls into receivership, it would be the third U.S. bank to collapse since March. ",
+   "category": "Public",
+   "id": 66
+},
+{
+   "source": {
+      "id": "the-washington-post",
+      "name": "The Washington Post"
+   },
+   "author": "Robert Barnes",
+   "title": "Alito says Dobbs leaker wasn't a conservative, but won't name names - The Washington Post",
+   "description": "The leak of the Dobbs v. Jackson Women\u2019s Health Organization draft opinion rocked the Supreme Court and its tradition of secrecy involving unreleased opinions.",
+   "url": "https://www.washingtonpost.com/politics/2023/04/28/alito-leaker-dobbs-wsj/",
+   "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OGV2RIFQP5AYBAWEMZHDQEMFMY.jpg&w=1440",
+   "publishedAt": "2023-04-28T21:55:24Z",
+   "content": "Comment on this story\r\nComment\r\nJustice Samuel A. Alito Jr. said in an interview earlier this month that he has a pretty good idea who leaked his draft Supreme Court opinion that overturned Roe v. Wa\u2026 [+5122 chars]",
+   "summary": "Supreme Court Justice Samuel A. Alito, Jr. stated in an interview that despite having a \"pretty good idea\" of who leaked his draft opinion overturning Roe v. Wade, it is impossible to prove. Last year, the leak from the traditionally secretive Supreme Court was published by Politico, creating controversy. An NPR/PBS NewsHour/Marist poll released Wednesday showed that 37% of Americans have \u201ca great deal\u201d or \u201cquite a lot\u201d of confidence in the Supreme Court. Alito defended the court\u2019s willingness to overturn legal precedents, including Roe, which he called \"egregiously wrong.\" ",
+   "category": "Politics",
+   "id": 67
+},
+{
+   "source": {
+      "id": "fox-news",
+      "name": "Fox News"
+   },
+   "author": "Liz Friden, Adam Sabes",
+   "title": "US government begins land evacuation of American civilians in Sudan: Official - Fox News",
+   "description": "The United States government has begun a land-based evacuation of American civilians who are in Sudan amid a growing civil conflict in the country.",
+   "url": "https://www.foxnews.com/world/u-s-government-begins-land-evacuation-of-american-civilians-sudan-official",
+   "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/04/AP23116813450233.jpg",
+   "publishedAt": "2023-04-28T21:33:00Z",
+   "content": "The United States government has begun a land evacuation of American civilians who are in Sudan amid a growing civil conflict.\r\nA U.S. official told Fox News that there's an ongoing effort to bus a l\u2026 [+629 chars]",
+   "summary": "The US government is evacuating American civilians from war-torn Sudan following the confirmation of a second death. It is unclear how many people are being evacuated or how many buses are being used. Evacuees will be bussed to the Red Sea in Port Sudan so they can be flown to safety. The Pentagon has sent unmanned ISR drones to fly over potential land routes, with US Naval assets on standby in case an evacuation is required. ",
+   "category": "Politics",
+   "id": 68
+},
+{
+   "source": {
+      "id": null,
+      "name": "Tennesseetitans.com"
+   },
+   "author": "Jim Wyatt",
+   "title": "Titans First-Round Pick Peter Skoronski Arrives in Nashville, and is Ready to Get to Work - Tennessee Titans",
+   "description": "Less than 24 hours later after being selected 11th overall by the Titans in the first round of the 2023 NFL Draft, Skoronski was in Music City driving past Nissan Stadium and having lunch with head coach Mike Vrabel.",
+   "url": "https://www.tennesseetitans.com/news/titans-first-round-pick-peter-skoronski-arrives-in-nashville-and-is-ready-to-get",
+   "urlToImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/titans/wa6hiufy2uqrkvbpt3en",
+   "publishedAt": "2023-04-28T20:43:34Z",
+   "content": "Skoronski's parents, Bob and Anne, made the trip.\r\nOn Thursday night, over 100 family members, friends, former teammates and coaches gathered at a pizzeria in Chicago, when Skoronski got the NFL call\u2026 [+956 chars]",
+   "summary": "Peter Skoronski, a big offensive lineman, was selected by the Tennessee Titans in the first round of the 2023 NFL Draft. He landed in Nashville the next day and was welcomed by his new team. Skoronski had lunch with his new head coach and shook hands with the team's owner and general manager. He was impressed by the city and its downtown stadium. The Titans also drafted three more players during the draft, including Cincinnati tight end Josh Whyle, Maryland offensive lineman Jaelyn Duncan, and Tennessee-Martin receiver Colton Dowell. ",
+   "category": "Sports",
+   "id": 69
+},
+{
+   "source": {
+      "id": null,
+      "name": "CNBC"
+   },
+   "author": "Emma Newburger",
+   "title": "California bans the sale of new diesel trucks by 2036 - CNBC",
+   "description": "The new mandate is estimated to deliver\u00a0$26.5 billion in public health benefits\u00a0in California in avoided health impacts and deaths due to diesel pollution.",
+   "url": "https://www.cnbc.com/2023/04/28/california-bans-the-sale-of-new-diesel-trucks-by-2036.html",
+   "urlToImage": "https://image.cnbcfm.com/api/v1/image/107232999-1682709785226-gettyimages-1242715164-AFP_32H42C4.jpeg?v=1682712556&w=1920&h=1080",
+   "publishedAt": "2023-04-28T20:09:16Z",
+   "content": "California regulators on Friday voted to ban the sale of new diesel big rigs by 2036 and require all trucks to be zero-emissions by 2042, a decision that puts the state at the forefront of mitigating\u2026 [+3115 chars]",
+   "summary": "California regulators have voted to pass the Advanced Clean Fleets rule. This makes new commercial trucks, including delivery\u00a0and garbage trucks, appear as zero-emissions vehicles by 2042, and all trucks emitting zero emissions by the same year. The decision backs California\u2019s state's commitment to 100% renewable energy by 2045 and is the first in the world\u00a0to require new commercial trucks to be electric. The mandate would require companies with 50 or more trucks to convert their fleets to electric or hydrogen models and achieve zero-emissions by 2042. Supporters of the rule appreciate the $26.5bn in public health benefits that the law will deliver by reducing diesel pollution. ",
+   "category": "Environment",
+   "id": 70
+},
+{
+   "source": {
+      "id": "abc-news",
+      "name": "ABC News"
+   },
+   "author": "MARCIA DUNN AP Aerospace Writer",
+   "title": "China's Mars rover finds signs of recent water in sand dunes - ABC News",
+   "description": "A new study suggests water on Mars may be more widespread and recent than previously thought",
+   "url": "https://abcnews.go.com/Technology/wireStory/chinas-mars-rover-finds-signs-recent-water-sand-98944600",
+   "urlToImage": "https://s.abcnews.com/images/Technology/wirestory_937fb473f76d75cc9f268e6e720c864f_16x9_992.jpg",
+   "publishedAt": "2023-04-28T19:41:20Z",
+   "content": "CAPE CANAVERAL, Fla. -- Water may be more widespread and recent on Mars than previously thought, based on observations of Martian sand dunes by China's rover. \r\nThe finding highlights new, potentiall\u2026 [+3316 chars]",
+   "summary": "China's Zhurong rover has found evidence suggesting that water may be more widespread and recent on Mars than previously thought. The rover detected salt-rich dunes mixed with melting morning frost or snow as recently as a few hundred thousand years ago, likely resulting in small cracks, hard crusty surfaces, and other dune features. Though the study authors believe the water might only be a small amount, it highlights new, potentially fertile areas where life could exist. The findings could provide insight into the possibility of water activity on the Red Planet and suggest that there may be a wider distribution of this process than previously identified. ",
+   "category": "Technology",
+   "id": 71
+},
+{
+   "source": {
+      "id": null,
+      "name": "GameSpot"
+   },
+   "author": "Eddie Makuch",
+   "title": "Nvidia Stands Up For Microsoft After UK Blocks Activision Merger - GameSpot",
+   "description": "\"We see this as a benefit to cloud gaming and hope for a positive resolution.\"",
+   "url": "https://www.gamespot.com/articles/nvidia-stands-up-for-microsoft-after-uk-blocks-activision-merger/1100-6513696/",
+   "urlToImage": "https://www.gamespot.com/a/uploads/screen_kubrick/1179/11799911/4131071-screenshot2023-04-28at1.53.53pm.png",
+   "publishedAt": "2023-04-28T18:57:52Z",
+   "content": "Nvidia has spoken up in support of Microsoft following the recent news that the UK's Competition &amp; Markets Authority is moving to block the sale of Activision Blizzard to the Xbox company.\r\nNvidi\u2026 [+1930 chars]",
+   "summary": "Nvidia has voiced its support for Microsoft over the UK's decision to block the sale of Activision Blizzard to the Xbox company. Nvidia's GeForce Now Twitter account stated that the cloud gaming service and other providers would benefit from the acquisition, and added that it hoped for a positive resolution. Nvidia recently signed up to a 10-year deal with Microsoft, with Call of Duty games and other Activision Blizzard titles set to be brought to GeForce Now if the deal goes ahead. The UK's Competition & Markets Authority blocked the Microsoft deal due to concerns about the cloud gaming market. ",
+   "category": "Technology",
+   "id": 72
+},
+{
+   "source": {
+      "id": null,
+      "name": "INSIDER"
+   },
+   "author": "Natalie Musumeci",
+   "title": "Meghan Markle's estranged dad pleads, 'How can I fix this?' - Insider",
+   "description": "Thomas Markle can be seen in a clip for an upcoming interview as a voiceover promoting it says: \"Dad's deathbed plea to the daughter he lost.\"",
+   "url": "https://www.insider.com/meghan-markle-estranged-dad-thomas-markle-how-can-i-fix-2023-4",
+   "urlToImage": "https://i.insider.com/644bff83da6d7b0019bda3b5?width=1200&format=jpeg",
+   "publishedAt": "2023-04-28T18:19:00Z",
+   "content": "Meghan Markle's estranged father, Thomas Markle, says he wants to repair his strained relationship with his royal daughter.\u00a0\r\n\"How can I fix this?\" the Duchess of Sussex's dad pleads to her in a teas\u2026 [+1687 chars]",
+   "summary": "Thomas Markle, estranged father of Meghan Markle, has stated in a teaser released on Friday for an upcoming interview with Australia's 7NEWS Spotlight that he wants to repair his relationship with his daughter. After having a stroke last year, the 78-year-old father of the Duchess of Sussex has pleaded with Meghan in the interview, set to air on Sunday. Meghan and her father's falling out was attributed to Thomas' staging of paparazzi photos ahead of her and Prince Harry's royal wedding in 2018, resulting in her addressing her father's \"betrayal\" with Oprah Winfrey in 2021. This ",
+   "category": "Public",
+   "id": 73
+},
+{
+   "source": {
+      "id": null,
+      "name": "9to5google.com"
+   },
+   "author": "Ben Schoon",
+   "title": "OnePlus Pad doesn't have a fingerprint sensor - 9to5Google",
+   "description": "The OnePlus Pad is billed as a flagship offering, but its lack of a fingerprint sensor or secure biometrics will be a deal-breaker for some.",
+   "url": "https://9to5google.com/2023/04/28/oneplus-pad-fingerprint-biometrics/",
+   "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2023/04/oneplus-pad-3.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+   "publishedAt": "2023-04-28T17:45:00Z",
+   "content": "The OnePlus Pad has a lot of good aspects, but one thing that buyers might not notice before buying is that the tablet lacks any form of secure biometrics it comes without a fingerprint sensor or a p\u2026 [+2686 chars]",
+   "summary": "The OnePlus Pad tablet, set to hit the market on May 8, lacks any secure biometrics, with no fingerprint sensor or other alternative available. The device features an 11.61-inch display that runs at 144Hz and is powered by a MediaTek Dimensity 9000 chip, with accessories available and a price of $479. Although the slate supports face and password authentication, the inability to use fingerprint authentication for sensitive apps is a deal-breaker for some users. OnePlus reasoned that an in-display fingerprint sensor \"is not as natural\" and a side-mounted one \"is also not that efficient,\" despite other manufacturers employing them on their tablets. ",
+   "category": "Technology",
+   "id": 74
+},
+{
+   "source": {
+      "id": null,
+      "name": "Rolling Stone"
+   },
+   "author": "David Fear",
+   "title": "\u2018Guardians of the Galaxy Vol. 3\u2019 Is Yet Another Big Marvel Movie Misstep - Rolling Stone",
+   "description": "The interstellar superheroes get together for one last adventure that falls far short of what these MCU MVPs deserve",
+   "url": "https://www.rollingstone.com/tv-movies/tv-movie-reviews/guardians-of-the-galaxy-vol-3-review-marvel-misstep-mcu-chris-pratt-superhero-movies-james-gunn-1234722420/",
+   "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2023/04/WSA4690_TRL_comp_WTA_v0398.1105_R.jpg?w=1600&h=900&crop=1",
+   "publishedAt": "2023-04-28T17:00:00Z",
+   "content": "The whole thing felt like a glorious fluke from the get-go. Never mind all those top-tier, name-recognized Marvel superheroes that were being trotted out in the name of establishing a multimedia, cro\u2026 [+7680 chars]",
+   "summary": "Guardians of the Galaxy Vol. 3 is a disappointing and somber final chapter to the franchise that was once celebrated as a subversive and adventurous addition to the Marvel Cinematic Universe. While Rocket Raccoon's backstory is emotionally invested and beautifully rendered, the rest of the movie feels phoned in, forced, and out of place, lacking the anything-goes sensibility that made the franchise stand out. The ensemble cast seems to radiate a sense of wanting to be someplace else, and this last gasp of Guardianship comes across as a loss of quality control from the studio. ",
+   "category": "Entertainment",
+   "id": 75
 }
 ]};
 

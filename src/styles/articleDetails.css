@@ -14,7 +14,10 @@
   
   .goBackButton-details {
     position: absolute;
-    color: #141e49;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
   }
   
   .article-details-title {
