@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const rapidAPIKey = '78a21d8c2emshbcdb167cd054517p169ed9jsn4e8158f1e6cb';
+const rapidAPIKey = process.env.REACT_APP_TTS_API_KEY;
 
 export const getTextToSpeech = async (text) => {
   const url = 'https://large-text-to-speech.p.rapidapi.com/tts';
