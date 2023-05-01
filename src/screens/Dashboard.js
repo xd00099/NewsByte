@@ -101,9 +101,9 @@ const Dashboard = () => {
           className="mySwiper"
           >
 
-          {cateArticles.map((article, index) => (
+          {cateArticles.map((article) => (
             <div className='swipecard'>
-              <SwiperSlide key={index} style={{backgroundImage: `url(${article.urlToImage})`, boxShadow: '5px 5px 8px #00000087'}}>
+              <SwiperSlide key={article.id} style={{backgroundImage: `url(${article.urlToImage})`, boxShadow: '5px 5px 8px #00000087'}}>
                 <div className="overlay">
                   <SliderAudio summary={article.summary}></SliderAudio>
                   <div className='swipecard-text' onClick={()=>(navigate(`/articles/${article.id}`))}>
@@ -124,7 +124,7 @@ const Dashboard = () => {
             </Link>
         </div>
 
-        {topArticles.map((article, index) => (
+        {topArticles.map((article) => (
           <ArticleDash
             articleNumber={article.id}
             key={article.id}
