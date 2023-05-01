@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5b9adc07-fdde-42a4-b9e7-b5d5cde10a07/deploy-status)](https://app.netlify.com/sites/newsbyte-mobile/deploys)
+# NewsByte Mobile
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
