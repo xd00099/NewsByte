@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import news from '../news/news.js'
 import Link from '@mui/material/Link';
 import FeedIcon from '@mui/icons-material/Feed';
@@ -18,6 +19,7 @@ import '../styles/dashboard.css';
 
 const Dashboard = () => {
   const articles = news.articles;
+  const navigate = useNavigate();
   const [selectedItem, setSelectedItem] = useState("All");
   const [cateArticles, setCateArticles] = useState(getCategoryArticles(articles, selectedItem, 5));
   const [topArticles, setTopArticles] = useState(getCategoryArticles(articles, selectedItem, 3));
@@ -104,7 +106,7 @@ const Dashboard = () => {
               <SwiperSlide key={index} style={{backgroundImage: `url(${article.urlToImage})`, boxShadow: '5px 5px 8px #00000087'}}>
                 <div className="overlay">
                   <SliderAudio summary={article.summary}></SliderAudio>
-                  <div className='swipecard-text'>
+                  <div className='swipecard-text' onClick={()=>(navigate(`/articles/${article.id}`))}>
                   <p style={{color: '#9c2661', fontFamily: 'Sans-serif', textTransform: 'uppercase', fontSize: '12px', margin: '0'}}>{article.category}</p>
                   <h2 style={{color: '#eceff3', fontFamily: 'Abril Fatface', fontSize: '16px'}}>{article.title}</h2>
                   </div>
