@@ -108,7 +108,7 @@ const Dashboard = () => {
                   <SliderAudio summary={article.summary}></SliderAudio>
                   <div className='swipecard-text' onClick={()=>(navigate(`/articles/${article.id}`))}>
                   <p style={{color: '#9c2661', fontFamily: 'Sans-serif', textTransform: 'uppercase', fontSize: '12px', margin: '0'}}>{article.category}</p>
-                  <h2 style={{color: '#eceff3', fontFamily: 'Abril Fatface', fontSize: '16px', marginTop: '5px'}}>{article.title}</h2>
+                  <h2 style={{color: '#eceff3', fontFamily: 'Abril Fatface', fontSize: '17px', marginTop: '5px'}}>{article.title}</h2>
                   </div>
                 </div>
               </SwiperSlide>
@@ -129,7 +129,7 @@ const Dashboard = () => {
             articleNumber={article.id}
             key={article.id}
             image={article.urlToImage}
-            title={truncateBegin(article.title,7)}
+            title={article.title}
             summary={truncateBegin(article.description,10)}
           />
         ))}

@@ -39,6 +39,8 @@
   .article-content {
     font-family: 'Inter';
     font-size: 14px;
+    text-indent: 25px;
+    line-height: 1.4;
     color: #70758a;
     margin-top: 0;
   }
