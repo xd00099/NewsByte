@@ -15,8 +15,8 @@
 You can visit the app [here](https://newsbyte-mobile.netlify.app/).
 
 <p float="left">
-  <img src="images/dashboard.gif" alt="UC Berkeley" width="250"/>
-    <img src="images/content.png" alt="UC Berkeley" width="250"/>
+  <img src="images/dashboard.gif" alt="dashboard" width="250"/>
+  <img src="images/content.png" alt="content" width="250"/>
 </p>
 
 
