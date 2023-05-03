@@ -146,6 +146,7 @@ export default function SignIn() {
               variant="contained"
               style={{background: '#141e49'}}
               sx={{ mt: 3, mb: 2 }}
+              onClick={handleSubmit}
             >
               Continue as Guest
             </Button>
