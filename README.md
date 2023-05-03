@@ -12,7 +12,7 @@
 
 ## NewsByte App
 
-You can visit the app [here](https://newsbyte-mobile.netlify.app/).
+You can visit the app on your phone [here](https://newsbyte-mobile.netlify.app/).
 
 <p float="left">
   <img src="images/dashboard.gif" alt="dashboard" width="250"/>
