@@ -76,6 +76,33 @@ src
    |   |-- dashboard.css
 ```
 
+## Getting started locally
+
+### 1. Clone this repo to your computer
+
+### 2. Make sure you have node and npm installed.
+```
+node -v
+=> v18.14.0
+
+npm -v
+=> 9.3.1
+```
+
+### 3. Install all the dependencies
+Run in the repo root directory:
+```
+npm install
+```
+
+### 4. Start the localhost
+```
+npm start
+```
+You should be able to start the project in the local environment:
+```
+Local:            http://localhost:3000
+```
 
 ## Problem
 
