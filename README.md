@@ -104,6 +104,8 @@ You should be able to start the project in the local environment:
 Local:            http://localhost:3000
 ```
 
+### 5. Make sure to set the viewing dimensions to phone size to have the best experience developing the app.
+
 ## Problem
 
 In today's fast-paced and information-rich world, individuals often struggle to keep up with the news and stay informed about the latest events and trends. With the overwhelming amount of information available online, it can be challenging to find reliable sources and filter out uninteresting, fake news and biased content. It can also be challenging to consume news in a limited time span. This calls for a streamlined news consumption platform, designed for busy individuals with tight schedules.
