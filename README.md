@@ -13,6 +13,7 @@
 ## NewsByte App
 
 You can visit the app on your phone [here](https://newsbyte-mobile.netlify.app/).
+[Video Demo](https://youtu.be/zFgR0Ruv63w)
 
 <p float="left">
   <img src="images/dashboard.gif" alt="dashboard" width="250"/>
